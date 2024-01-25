@@ -1,0 +1,51 @@
+@import url("loader.css");
+@import "darkmode.css";
+*{
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+    background-color: gray;
+}
+#home{
+    border: 4px solid green;
+    
+}
+#nav-right {
+    /* overflow: hidden;
+    
+    padding-left: 80%; */
+
+    border: 3px solid green;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 2.5vw;
+
+    /* width: 93%;
+    height: inherit;
+    display: flex;
+    justify-content: end;
+    align-items: center; */
+    
+}
+button{
+    padding: 1%;
+    /* border-radius: 5%; */
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-color: brown;
+    background-color: rgb(113, 110, 110);
+    margin-left: 3%;
+}
+button:hover{
+    background-color: brown;
+    color: whitesmoke;
+    box-shadow: 2px 2px #28809d;
+}
+div>div{
+    /* margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px; */
+    text-align: center;
+}
